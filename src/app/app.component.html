@@ -1,0 +1,9 @@
+<div>
+  <h2>{{'dummy.title' | translate}}</h2>
+  <p>{{'dummy.text' | translate}}</p>
+</div>
+
+<select #formLang (change)='useLang(formLang.value)'>
+  <option disabled>{{'dummy.lang' | translate}}</option>
+  <option *ngFor='let item of langList' [value]="item">{{item}}</option>
+</select>

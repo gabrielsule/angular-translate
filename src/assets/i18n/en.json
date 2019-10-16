@@ -1,0 +1,7 @@
+{
+  "dummy": {
+      "title": "Translation dummy",
+      "text": "This is a simple demonstration app for ngx-translate",
+      "lang": "select a language"
+  }
+}
